@@ -39,6 +39,8 @@ disease(_,"are in Progression AIDS"):-
 						symptom("Memory loss, depression, and other neurologic disorders").
 
 disease(_,"got Hepatitis C"):-
+                        symptom("Fever"),
+                        symptom("Fatigue"),
 						symptom("Confirmed by blood test").
 						
 disease(_,"are Pregnancy"):-
